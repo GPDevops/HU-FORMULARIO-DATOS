@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form</title>
+        <link rel="stylesheet" href="./css/formstyle.css"
+    </head>
+
+    <body>
+        <h1>Datos de clientes</h1>
+        <h2>Formulario de ingreso de datos</h2>
+        <form id="formDatos" onsubmit="return calculateMortage(event)" method="get" target="_blank">
+            <label for="nombres">Nombres del cliente</label><br>
+            <input type="text" id="nombres" name=""><br>
+            <label for="apellidos">Apellidos</label><br>
+            <input type="text" id="apellidos" name=""><br>
+            <label for="numeroTelefono">Numero de Telefono</label><br>
+            <input type="text" id="numeroTelefono" name=""><br>
+            <label for="correo">Correo electronico</label><br>
+            <input type="text" id="correo" name=""><br>
+            <label for="pais">Pais</label><br>
+            <input type="text" id="pais" name=""><br>
+            <label for="ciudad">Ciudad</label><br>
+            <input type="text" id="ciudad" name=""><br><br>
+            <button type="submit">Guardar</button>
+            <!--<button onclick="reiniciarForm()">Reset</button>
+        </form>
+        <label for="montoPrestamo">Monto del prestamo</label>
+        <output id="montoPrestamo">0</output><br>
+        <label for="valorCuota">Valor Cuota Mensual</label>
+        <output id="valorCuota">0</output><br> -->
+        <script src="./js/form.js"></script>
+    </body>
+
+</html>
