@@ -1,11 +1,1 @@
-1. Como asistente requiero un formulario para recopilar los datos del cliente.
-2. Las etiquetas del formulario deben estar en negrita y tamanio de letra grande.
-3. Ademas, debe existir un boton para guardar.
-4. Los datos a solicitar son:
-    - Nombres:
-    - Apellidos:
-    - Numero de Telefono:
-    - Correo electronico:
-    - Pais:
-    - Ciudad:
-5. Cuando se guarde los datos debe mostrar un alert "Datos guardados con exito"
+
